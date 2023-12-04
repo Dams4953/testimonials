@@ -1,0 +1,24 @@
+@import 'styles.css';
+@import 'mixin.scss';
+
+
+
+.BlocGridUn {
+    @include GridConfig;
+}
+
+.BlocGridDeux {
+    @include GridConfig;
+}
+
+.BlocGridTrois {
+    @include GridConfig;
+}
+
+.BlocGridQuatre {
+    @include GridConfig;
+}
+
+.BlocGridCinq {
+    @include GridConfig;
+}

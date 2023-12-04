@@ -1,0 +1,10 @@
+
+@mixin TextConfig{
+    margin: 20px;
+    font-size: 13px;
+}
+
+@mixin GridConfig{
+    display: grid;
+    grid-template-columns: 1fr;
+}

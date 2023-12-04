@@ -1,0 +1,119 @@
+@media screen and (max-width: 375px) {
+        @import 'mobile.scss';
+}
+
+@media screen and (max-width: 3000px) {
+        @import 'dekstop.scss';
+}
+@import 'variables.scss';
+@import 'mixin.scss';
+
+.BlocGridUn {
+    background-color: hsl(263, 55%, 52%);
+}
+
+.BlocGridDeux {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.BlocGridTrois {
+    background-color: hsl(0, 0%, 100%) ;
+}
+
+.BlocGridQuatre {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.BlocGridCinq {
+    background-color: hsl(0, 0%, 100%);
+}
+
+p {
+    @include TextConfig;
+}
+
+h2 {
+    margin: 20px;
+}
+
+
+
+/*bloc 1*/
+.BlocGridUn :nth-child(1) {
+    color: $WhiteText;
+}
+.BlocGridUn :nth-child(2) {
+    color: $WhiteText;
+    opacity: 50%;
+}
+.BlocGridUn :nth-child(3) {
+    color: $WhiteText;
+}
+.BlocGridUn :nth-child(4) {
+    color: $WhiteText;
+    opacity: 70%;
+}
+
+/*bloc 2*/
+.BlocGridDeux :nth-child(1) {
+    color: $WhiteText;
+}
+.BlocGridDeux :nth-child(2) {
+    color: $WhiteText;
+    opacity: 50%;
+}
+.BlocGridDeux :nth-child(3) {
+    color: $WhiteText;
+}
+.BlocGridDeux :nth-child(4) {
+    color: $WhiteText;
+    opacity: 70%;
+}
+
+/*bloc 3*/
+.BlocGridTrois :nth-child(1) {
+    color: hsl(219, 29%, 14%);
+}
+.BlocGridTrois :nth-child(2) {
+    color: hsl(219, 29%, 14%);
+    opacity: 50%;
+}
+.BlocGridTrois :nth-child(3) {
+    color: hsl(219, 29%, 14%);
+}
+.BlocGridTrois :nth-child(4) {
+    color: hsl(219, 29%, 14%);
+    opacity: 70%;
+}
+
+/*bloc 4*/
+.BlocGridQuatre :nth-child(1) {
+    color: $WhiteText;
+}
+.BlocGridQuatre :nth-child(2) {
+    color: $WhiteText;
+    opacity: 50%;
+}
+.BlocGridQuatre :nth-child(3) {
+    color: $WhiteText;
+}
+.BlocGridQuatre :nth-child(4) {
+    color: $WhiteText;
+    opacity: 70%;
+}
+
+/*bloc 5*/
+.BlocGridCinq :nth-child(1) {
+    color: hsl(219, 29%, 14%);
+}
+.BlocGridCinq :nth-child(2) {
+    color: hsl(219, 29%, 14%);
+    opacity: 50%;
+}
+.BlocGridCinq :nth-child(3) {
+    color: hsl(219, 29%, 14%);
+}
+.BlocGridCinq :nth-child(4) {
+    color: hsl(219, 29%, 14%);
+    opacity: 70%;
+}

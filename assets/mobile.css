@@ -1,3 +1,25 @@
+@import 'styles.css';
+.BlocGridUn {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
+.BlocGridDeux {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
-/*# sourceMappingURL=mobile.css.map */
+.BlocGridTrois {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.BlocGridQuatre {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.BlocGridCinq {
+  display: grid;
+  grid-template-columns: 1fr;
+}/*# sourceMappingURL=mobile.css.map */
